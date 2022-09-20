@@ -1,0 +1,64 @@
+table, td {
+  border: 2px solid black;
+}
+table {
+  border-collapse: collapse;
+  
+}
+td {
+  height: 30px;
+  width: 10%;
+  text-align: center;
+}
+
+tr:first-child {
+  background-color: #028f8f;
+  color: #000000;
+}
+
+tr:first-child:hover {
+  background-color: #bf0202;
+  color: white;
+}
+
+tr:nth-child(2) {
+  background-color: #f5f502;
+  color: #020A1E;
+}
+
+tr:nth-child(2):hover {
+  background-color: #0202f5;
+  color: white;
+}
+
+.container {
+  position: relative;
+  background-color: #bf0202;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.horizon, .vert {
+  position: absolute;
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+.horizon {
+  width: 50%;
+  height: 20%;
+  top: 40%;
+  left: 25%;
+}
+
+.vert {
+  width: 20%;
+  height: 50%;
+  top: 25%;
+  left: 40%;
+}
+
+#transform {
+  transform: translate(150%, -105%);
+}
